@@ -6,6 +6,8 @@ import 'package:flutter_sample/containerWidget.dart';
 import 'package:flutter_sample/work.dart';
 import 'package:flutter_sample/my_gird_page.dart';
 import 'package:flutter_sample/my_listview_page.dart';
+import 'package:flutter_sample/myapp.dart';
+import 'package:flutter_sample/work_container_slide17.dart';
 
 void main() {
   runApp(const MainApp());
@@ -19,7 +21,7 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'My Flutter sample',
-      home: MyListviewPage (
+      home: WorkContainer (
         
       )
     );
